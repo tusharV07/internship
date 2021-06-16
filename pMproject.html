@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>piano_MinorProject</title>
+    <link rel="stylesheet" href="pMproject.css">
+    <script src="pMproject.js" defer ></script>
+</head>
+<body>
+    <div class="totald">
+    <div class="headd">
+        <p class="p1"> <marquee behavior="scroll" loop="INFINITE" scrollamount="10" direction="right">Piano Simulator</marquee> 
+            <br> <p class="pnew">piano_MinorProject.inc </p>
+        </p>
+    </div>
+    <div class="main">
+        
+        <img class="img1" src="table1.jpeg" alt="tablepic" >
+        
+          <div id="rec">
+              <p class="comp">Golden&reg;</p>
+                <div class="piano"> 
+            
+                <div data-note="C" class="k white" id="key1"></div>
+                <div data-note="Db" class="k black"></div>
+                <div data-note="D" class="k white"></div>
+                <div data-note="Eb" class="k black"></div>
+                <div data-note="E" class="k white"></div>
+                <div data-note="F" class="k white"></div>
+                <div data-note="Gb" class="k black"></div>
+                <div data-note="G" class="k white"></div>
+                <div data-note="Ab" class="k black"></div>
+                <div data-note="A" class="k white"></div>
+                <div data-note="Bb" class="k black"></div>
+                <div data-note="B" class="k white" id="key7"></div>
+                
+                 </div>
+            
+              
+              <audio id="C" src="C.mp3"></audio>
+              <audio id="Db" src="Db.mp3"></audio>
+              <audio id="D" src="D.mp3"></audio>
+              <audio id="Eb" src="Eb.mp3"></audio>
+              <audio id="E" src="E.mp3"></audio>
+              <audio id="F" src="F.mp3"></audio>
+              <audio id="Gb" src="Gb.mp3"></audio>
+              <audio id="G" src="G.mp3"></audio>
+              <audio id="Ab" src="Ab.mp3"></audio>
+              <audio id="A" src="A.mp3"></audio>
+              <audio id="Bb" src="Bb.mp3"></audio>
+              <audio id="B" src="B.mp3"></audio>
+          </div>
+    </div>   
+    <div class="footd">
+       <p class="p2"> By Tushar Vyavahare
+           <br>
+           <br>&copy; Copyrights reserved,<script>document.write(new Date().getFullYear());</script>
+           <button  class="pstat" onclick="changeColor()">click to apply piano color </button>
+           <div class="pcol">
+           <U>select color =></U>  <input type="color" id="pianocolor" value="#999900" style="border:2px solid rgb(247, 65, 10); border-radius: 5px;">
+           </div>    
+        </p>
+        
+    </div>
+    </div>
+</body>
+</html>
